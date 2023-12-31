@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background: url(background-3018111_1280.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container1 .img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container1 img {
+    margin-top: 10%;
+}
+
+.container1 .img .texthead {
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container1 .img .texthead h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px red;
+    background: -webkit-linear-gradient(#2c2727, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container1 .img .texthead h4 {
+    font-size: 25px;
+    font-style: italic;
+    color: cornsilk;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px dimgray;
+}
+
+
+/*body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+.container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url(new-year-1911483_1280.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .card {
+    width: 40%;
+    height: 500px;
+    overflow: hidden;
+    background: greenyellow;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container .card label {
+    color: #e78080;
+    font-size: 25px;
+    text-shadow: 2px 2px 10px #333;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container .card input {
+    width: 200px;
+    height: 50px;
+    color: brown;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 2px 2px 10px #333;
+    border: none;
+    margin-top: 20px;
+    background-color: #e9bcbc;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: brown;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    box-shadow: 2px 2px 10px #333;
+    border: none;
+    margin-top: 20px;
+    background-color: #e9bcbc;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1) rotate(-1deg);
+    background-color: #e78080;
+    box-shadow: 5px 5px 10px #e5e5e5 inset, 8px 8px 15px rgb(247, 113, 240);
+}
